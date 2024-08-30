@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="team.css">
+    <title>Team Score</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Score Keeper</h1>
+        <div class="team">
+            <h2>Team 1</h2>
+            <p id="team1-score">0</p>
+            <button onclick="increaseScore('team1')">Increase</button>
+            <button onclick="decreaseScore('team1')">Decrease</button>
+        </div>
+        <div class="team">
+            <h2>Team 2</h2>
+            <p id="team2-score">0</p>
+            <button onclick="increaseScore('team2')">Increase</button>
+            <button onclick="decreaseScore('team2')">Decrease</button>
+        </div>
+        <button id="submit-scores" onclick="submitScores()">Submit Scores</button>
+        <div id="final-scores" class="hidden">
+            <h2>Final Scores</h2>
+            <p>Team 1: <span id="final-team1-score">0</span></p>
+            <p>Team 2: <span id="final-team2-score">0</span></p>
+            <h3 id="winner"></h3>
+        </div>
+    </div>
+    <script src="team.js"></script>
+</body>
+</html>
