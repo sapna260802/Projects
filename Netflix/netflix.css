@@ -1,0 +1,280 @@
+body{
+     margin:0;
+     padding: 0;
+     background-image: url(./images/IN.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     font-family: "PT Serif", serif;
+     background-color: black;
+ }
+ 
+ #right>#content>#Lang{
+     width: 50%;
+     height: 2.5rem;
+     padding-right: 4rem;
+     border-radius: 5px;
+ }
+ 
+ button{
+     background-color: red;
+     margin-right: 3rem;
+     margin-left: 2rem;
+     width: 50%;
+     height: 2.5rem;
+     border-radius: 5px;
+     color: white;
+ }
+ 
+ #movie{
+     text-align: center;
+     margin-top: 7rem;
+     /* border: 5px solid red; */
+     padding-bottom: 3rem;
+     margin: 7rem;
+ }
+ 
+ #movie>h1{
+ 
+     color: white;
+     font-weight: 800;
+     font-size: 3rem;
+ }
+ 
+ #movie>#watch{
+     color: white;
+     font-weight: 300;
+     font-size: 1.8rem;
+ }
+ 
+ #movie>#ready{
+     color: white;
+     font-weight: 300;
+     font-size: 1.5rem;
+ }
+ 
+ #movie>input{
+     width: 27%;
+     height: 2.5rem;
+     background-color:rgba(255, 255, 255, 0.15);
+     border-radius: 5px;
+     margin-right: 1rem;
+     color: white;
+ }
+ 
+ ::placeholder{
+     color: white;
+     padding-left: 10px;
+ }
+ 
+ #movie>button{
+     width: 15%;
+     height: 3rem;
+     background-color: red;
+     color: white;
+     border-radius: 5px;
+ }
+ nav
+ {
+     display: flex;
+     align-items: center;
+     padding: 0.2rem 1rem;
+     /* border: 4px solid green; */
+     justify-content: space-between;
+ }
+ 
+ 
+ #left>h1
+ {
+     padding-left: 7rem;
+     color:red;
+     font-size: 3rem ;
+     margin: 0;
+ }
+ 
+ #right>#content
+ {
+     display: flex;
+     align-items: center;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+ }
+ #enjoy
+ {
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 25%;
+ }
+ #text{
+    /* background-color: yellow; */
+    width:48%;
+    color: white;
+ }
+ #text>h2{
+    font-size: 3rem;
+ }
+ #text>p{
+    font-size: 1.5rem;
+ }
+ #media
+ {
+    /* background-color: blue; */
+    width:48%;
+ }
+ #media>img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+ }
+ #media>video{
+    position: absolute;
+    top:20.3%;
+    left:13%;
+    width:74%;
+    z-index: 1;
+ }
+ #media{
+    position: relative;
+ }
+ #enjoy1
+ {
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+ }
+ #text1{
+    /* background-color: yellow; */
+    width:48%;
+    color: white;
+ }
+ #text1>h2{
+    font-size: 3rem;
+ }
+ #text1>p{
+    font-size: 1.5rem;
+ }
+ #media1
+ {
+    /* background-color: blue; */
+    width:48%;
+ }
+ #media1>img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+ }
+ #media1>video{
+    position: absolute;
+    top:11.3%;
+    left:19%;
+    width:61%;
+    z-index: 1;
+ }
+ #media1{
+    position: relative;
+ }
+ #enjoy2
+ {
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+ }
+ #text2{
+    /* background-color: yellow; */
+    width:48%;
+    color: white;
+ }
+ #text2>h2{
+    font-size: 3rem;
+ }
+ #text2>p{
+    font-size: 1.5rem;
+ }
+ #media2
+ {
+    /* background-color: blue; */
+    width:48%;
+ }
+ #media2>img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+ }
+ /* #media2>video{
+    position: absolute;
+    top:11.3%;
+    left:19%;
+    width:61%;
+    z-index: 1;
+ } */
+ #media2{
+    position: relative;
+ }
+ #enjoy3
+ {
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 22%;
+    border-top: 5px solid grey;
+    padding-top: 12%;
+ }
+ #text3{
+    /* background-color: yellow; */
+    /* margin-top: 4rem; */
+    width:48%;
+    color: white;
+ }
+ #text3>h2{
+    font-size: 3rem;
+ }
+ #text3>p{
+    font-size: 1.5rem;
+ }
+ #media3
+ {
+    /* background-color: blue; */
+    width:48%;
+    position: relative;
+ }
+ #media3>img{
+    width: 190%;
+    position: relative;
+    height:345px;
+    z-index: 2;
+ }
+ /* #media2>video{
+    position: absolute;
+    top:11.3%;
+    left:19%;
+    width:61%;
+    z-index: 1;
+ } */
+ #media3{
+    position: relative;
+ }
+ #faq{
+   padding: 10px 12%;
+   text-align: center;
+   font-size: 18px;
+ }
+ #faq>h2
+ {
+   font-weight: 500;
+   font-size: 40px;
+ }
